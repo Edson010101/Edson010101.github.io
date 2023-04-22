@@ -1,0 +1,63 @@
+.marca  ,img{ 
+  width: 25rem;
+  height:15rem;
+  margin-bottom: 10rem;
+}
+.home1 a{
+  color: darkturquoise;
+}
+.menu,ul {
+  display: flex;
+  gap:5.4rem;
+  background-color:rgba(0, 0, 0, 0.879);
+  text-align: center;
+  padding:2rem 3rem;
+  font-size: 2.5rem;
+  margin-top: 1.4rem;
+  height: 9rem;
+}
+@media(max-width :1300px){
+  .menu ul ,img {color: black;
+  display: block;
+font-size: 1.5rem;
+padding: 0rem;
+margin: 0rem;
+
+}}
+@media(max-width :1300px){
+  .menu ul a img {display: flex;
+position: relative;
+top: -7.5rem;
+left: 15rem;
+width: 2rem;
+height: auto;
+padding: auto;
+}}
+
+.menu ,ul a{
+  color: #E2E2E2;
+  text-decoration: none;
+}
+.menu,a{color: #E2E2E2;
+  text-decoration: none;
+  }
+ul {
+  background-color: rgba(0, 0, 0, 0.0);
+}
+.icone ,li img{  
+  display: flex;
+  color: #3A062C;
+  gap: 2rem;
+  width: fit-content;
+  height: 4rem;
+  padding-top: 0.8rem;
+}
+.frase { 
+  font-size: 1.4rem;
+  color: #3A062C;
+  background-color:rgba(255,195,235,0.55);
+  text-align:end;
+  padding: 1rem 8rem 2rem 1rem;
+  border-bottom-left-radius: 15rem;
+  border-bottom-right-radius: 110%;
+}

@@ -1,0 +1,77 @@
+@import"/style/global.css";
+@import"/style/header.css";
+
+html{
+  background-image: url(/img/maria-lupan-sp6wzdYJ7QQ-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 100rem;
+  background-position:  50% -40%;
+  background-color:white;
+}
+@media(max-width :1300px){
+  html {width: 1000px;
+
+}}
+.conteudo{
+  padding-top: 4rem;
+  margin-top: 25rem;
+  padding-left: 20rem;
+  gap: 6rem;
+  display: flex;
+  text-align: center;
+  background-color:#0D1541;
+  height: 50rem;
+}
+.detalhes::before{
+  content: "";
+  width: 9rem;
+  height: 0.5rem;
+  background-color: #E10FE5;
+  position:absolute;
+  top:60rem ;
+  left: 30rem;
+  border-radius: 5rem;
+  transform: rotate(-50deg);
+}
+.detalhes2::after{
+  content: "";
+  width: 9rem;
+  height: 0.5rem;
+  background-color: #E10FE5;
+  position:absolute;
+  top:60rem ;
+  left: 32.5rem;
+  border-radius: 5rem;
+  transform: rotate(-50deg);
+}
+.conteudo img{
+  width: 5rem;
+  height: 5rem;
+  margin-top: 15rem;
+}
+
+ .rodape ul {
+  margin-top: 0rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr 2fr;
+  gap: 2rem;
+  background-color:black;
+  padding: 2rem 2rem 5rem 40rem;
+ }
+ .home2 a{
+  color:darkturquoise;}
+ .ser{
+  grid-column: 2;
+ }
+ .galeria{
+  grid-column: 2 / 1;
+ }
+ .agendamento{
+  grid-column: 2 / 3;
+ }
+ .insta img{
+  grid-column:   3 / 4;
+  padding-bottom: 0.1rem;
+ }
+ 
+

@@ -1,0 +1,137 @@
+html{background-color: #eddced;}
+  .marca  ,img{ 
+    width: 25rem;
+    height:15rem;
+    margin-bottom: 10rem;
+  }
+  .menu ,ul{
+    display: flex;
+    gap:5.4rem;
+    background-color:black;
+    text-align: center;
+    padding:2rem 3rem;
+    font-size: 2.5rem;
+    margin-top: 1.4rem;
+    height: 9rem;
+  }
+  @media(max-width :1300px){
+    .menu ul ,img {color: black;
+    display: block;
+  font-size: 1.5rem;
+  padding: 0rem;
+  margin: 0rem;
+  
+  }}
+  @media(max-width :1300px){
+    .menu ul a img {display: flex;
+  position: relative;
+  top: -7.5rem;
+  left: 15rem;
+  width: 2rem;
+  height: auto;
+  padding: auto;
+  }}
+  
+  .menu ,ul a{color: #E2E2E2;
+  text-decoration: none;}
+  li{text-decoration: none;
+  list-style: none;}
+  
+  .menu,a{color: #E2E2E2;
+    text-decoration: none;
+    }
+  ul {background-color: rgba(0, 0, 0, 0.0);
+  }
+  .agendamento1 a{
+    color: darkturquoise;
+  }
+  .icone ,li img{ display: flex;
+  color: #3A062C;
+  gap: 2rem;
+  width: fit-content;
+  height: 4rem;
+  padding-top: 0.8rem; }
+  .frase { 
+    background-color:rgba(255,195,235,0.55);
+    padding: 6.7rem 8rem 2rem 1rem;
+    border-bottom-left-radius: 15rem;
+    border-bottom-right-radius: 110%;
+    }
+    section{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      gap: 20rem;
+      padding:1rem 2rem 10rem 12rem;
+      margin: 2rem 10rem 10rem 4rem;
+    }
+    .conteudo{
+    background-image:linear-gradient(rgb(5, 5, 14),rgb(18, 18, 82),rgb(10, 10, 162));
+    }
+    .conteudo h1{color:white;
+    font-size: 3.5rem;
+    text-align: center;
+     margin: 16rem 10rem 10rem 10rem;
+     color: rgb(208, 178, 5);
+     font-style:oblique;
+  
+  text-align: left;}
+   .agenda {
+      padding: 8rem 15rem 8rem 8rem;
+      background-color: #f697f8;
+      border-radius: 100%;
+    }
+
+    .detalhe::before{
+      content: "";
+      width: 9rem;
+      height: 0.5rem;
+      background-color: #E10FE5;
+      position:absolute;
+      top:35rem;
+      right: 40rem;
+   left: 30rem;
+    }
+    .agenda img{
+      padding-left: 6rem;
+      width: 35rem;
+      height: 30rem;
+   justify-content: center;
+    }
+button{font-size: 2.3rem;
+padding: 1.5rem 6rem 1.5rem 6rem;
+margin: 5rem 5rem 5rem 10rem;
+margin-bottom: 5rem;
+color:  #09063A;
+background-color:#E10FE5;
+border-radius: 1rem ;
+text-align: center;
+text-transform: uppercase;
+}
+   .rodape ul {
+    margin-top: 0rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 2fr;
+    gap: 2rem;
+    background-color:black;
+    padding: 2rem 2rem 5rem 40rem;
+   }
+   .ser{
+    grid-column: 2;
+   }
+   .galeria{
+    grid-column: 2 / 1;
+   }
+   .agendamento{
+    grid-column: 2 / 3;
+   }
+   .insta{
+    grid-column:   3 / 4;
+    padding-bottom: 40rem;
+   }
+   a:active{color: #E10FE5;}
+   a:hover{
+    color: #9c3d9e;}
+
+    .agendamento a{
+      color: darkturquoise;
+    }
